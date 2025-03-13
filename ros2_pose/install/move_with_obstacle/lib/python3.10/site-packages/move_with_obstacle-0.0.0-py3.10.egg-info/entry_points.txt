@@ -1,0 +1,5 @@
+[console_scripts]
+obstacles = move_with_obstacle.obstacles:main
+obstacles_deepseek = move_with_obstacle.obstacles_deepseek:main
+test_zaicev = move_with_obstacle.test_zaicev:main
+

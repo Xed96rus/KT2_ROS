@@ -1,0 +1,5 @@
+  File "/home/maksim/ros2_pose/install/move_with_obstacle/lib/python3.10/site-packages/move_with_obstacle/obstacles.py", line 54
+    if self.flag != len(self.TARGETS[0]:
+                                       ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,26 @@
+[0.406s] Invoking command in '/home/maksim/ros2_pose/move_with_obstacle': PYTHONPATH=/home/maksim/ros2_pose/build/move_with_obstacle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maksim/ros2_pose/install/move_with_obstacle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/move_with_obstacle build --build-base /home/maksim/ros2_pose/build/move_with_obstacle/build install --record /home/maksim/ros2_pose/build/move_with_obstacle/install.log --single-version-externally-managed install_data
+[0.559s] running egg_info
+[0.559s] writing ../build/move_with_obstacle/move_with_obstacle.egg-info/PKG-INFO
+[0.559s] writing dependency_links to ../build/move_with_obstacle/move_with_obstacle.egg-info/dependency_links.txt
+[0.559s] writing entry points to ../build/move_with_obstacle/move_with_obstacle.egg-info/entry_points.txt
+[0.559s] writing requirements to ../build/move_with_obstacle/move_with_obstacle.egg-info/requires.txt
+[0.559s] writing top-level names to ../build/move_with_obstacle/move_with_obstacle.egg-info/top_level.txt
+[0.560s] reading manifest file '../build/move_with_obstacle/move_with_obstacle.egg-info/SOURCES.txt'
+[0.561s] writing manifest file '../build/move_with_obstacle/move_with_obstacle.egg-info/SOURCES.txt'
+[0.561s] running build
+[0.561s] running build_py
+[0.561s] copying move_with_obstacle/obstacles_deepseek.py -> /home/maksim/ros2_pose/build/move_with_obstacle/build/lib/move_with_obstacle
+[0.561s] running install
+[0.561s] running install_lib
+[0.562s] copying /home/maksim/ros2_pose/build/move_with_obstacle/build/lib/move_with_obstacle/obstacles_deepseek.py -> /home/maksim/ros2_pose/install/move_with_obstacle/lib/python3.10/site-packages/move_with_obstacle
+[0.562s] byte-compiling /home/maksim/ros2_pose/install/move_with_obstacle/lib/python3.10/site-packages/move_with_obstacle/obstacles_deepseek.py to obstacles_deepseek.cpython-310.pyc
+[0.563s] running install_data
+[0.563s] running install_egg_info
+[0.564s] removing '/home/maksim/ros2_pose/install/move_with_obstacle/lib/python3.10/site-packages/move_with_obstacle-0.0.0-py3.10.egg-info' (and everything under it)
+[0.565s] Copying ../build/move_with_obstacle/move_with_obstacle.egg-info to /home/maksim/ros2_pose/install/move_with_obstacle/lib/python3.10/site-packages/move_with_obstacle-0.0.0-py3.10.egg-info
+[0.565s] running install_scripts
+[0.579s] Installing obstacles script to /home/maksim/ros2_pose/install/move_with_obstacle/lib/move_with_obstacle
+[0.579s] Installing obstacles_deepseek script to /home/maksim/ros2_pose/install/move_with_obstacle/lib/move_with_obstacle
+[0.580s] Installing test_zaicev script to /home/maksim/ros2_pose/install/move_with_obstacle/lib/move_with_obstacle
+[0.580s] writing list of installed files to '/home/maksim/ros2_pose/build/move_with_obstacle/install.log'
+[0.595s] Invoked command in '/home/maksim/ros2_pose/move_with_obstacle' returned '0': PYTHONPATH=/home/maksim/ros2_pose/build/move_with_obstacle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maksim/ros2_pose/install/move_with_obstacle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/move_with_obstacle build --build-base /home/maksim/ros2_pose/build/move_with_obstacle/build install --record /home/maksim/ros2_pose/build/move_with_obstacle/install.log --single-version-externally-managed install_data

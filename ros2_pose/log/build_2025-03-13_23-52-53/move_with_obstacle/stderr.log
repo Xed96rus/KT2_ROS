@@ -1,0 +1,2 @@
+/home/maksim/ros2_pose/install/move_with_obstacle/lib/python3.10/site-packages/move_with_obstacle/obstacles.py:18: SyntaxWarning: list indices must be integers or slices, not tuple; perhaps you missed a comma?
+  self.coord_obs = [[2.0, 2.5, 4.0]

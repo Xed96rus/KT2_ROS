@@ -1,0 +1,23 @@
+running egg_info
+writing ../build/move_with_obstacle/move_with_obstacle.egg-info/PKG-INFO
+writing dependency_links to ../build/move_with_obstacle/move_with_obstacle.egg-info/dependency_links.txt
+writing entry points to ../build/move_with_obstacle/move_with_obstacle.egg-info/entry_points.txt
+writing requirements to ../build/move_with_obstacle/move_with_obstacle.egg-info/requires.txt
+writing top-level names to ../build/move_with_obstacle/move_with_obstacle.egg-info/top_level.txt
+reading manifest file '../build/move_with_obstacle/move_with_obstacle.egg-info/SOURCES.txt'
+writing manifest file '../build/move_with_obstacle/move_with_obstacle.egg-info/SOURCES.txt'
+running build
+running build_py
+copying move_with_obstacle/obstacles.py -> /home/maksim/ros2_pose/build/move_with_obstacle/build/lib/move_with_obstacle
+running install
+running install_lib
+copying /home/maksim/ros2_pose/build/move_with_obstacle/build/lib/move_with_obstacle/obstacles.py -> /home/maksim/ros2_pose/install/move_with_obstacle/lib/python3.10/site-packages/move_with_obstacle
+byte-compiling /home/maksim/ros2_pose/install/move_with_obstacle/lib/python3.10/site-packages/move_with_obstacle/obstacles.py to obstacles.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/maksim/ros2_pose/install/move_with_obstacle/lib/python3.10/site-packages/move_with_obstacle-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/move_with_obstacle/move_with_obstacle.egg-info to /home/maksim/ros2_pose/install/move_with_obstacle/lib/python3.10/site-packages/move_with_obstacle-0.0.0-py3.10.egg-info
+running install_scripts
+Installing obstacles script to /home/maksim/ros2_pose/install/move_with_obstacle/lib/move_with_obstacle
+Installing test_zaicev script to /home/maksim/ros2_pose/install/move_with_obstacle/lib/move_with_obstacle
+writing list of installed files to '/home/maksim/ros2_pose/build/move_with_obstacle/install.log'
