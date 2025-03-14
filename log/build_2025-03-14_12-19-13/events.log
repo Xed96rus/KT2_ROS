@@ -1,0 +1,328 @@
+[0.000000] (-) TimerEvent: {}
+[0.000155] (custom_msgs) JobQueued: {'identifier': 'custom_msgs', 'dependencies': OrderedDict()}
+[0.000203] (move_with_obstacle) JobQueued: {'identifier': 'move_with_obstacle', 'dependencies': OrderedDict([('custom_msgs', '/home/maksim/KT1_ROS/install/custom_msgs')])}
+[0.000255] (custom_msgs) JobStarted: {'identifier': 'custom_msgs'}
+[0.005886] (custom_msgs) JobProgress: {'identifier': 'custom_msgs', 'progress': 'cmake'}
+[0.007138] (custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/maksim/KT1_ROS/custom_msgs', '-DCMAKE_INSTALL_PREFIX=/home/maksim/KT1_ROS/install/custom_msgs'], 'cwd': '/home/maksim/KT1_ROS/build/custom_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maksim'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maksim/KT1_ROS/custom_msgs/install/custom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/maksim'), ('OLDPWD', '/home/maksim/KT1_ROS/custom_msgs'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maksim/KT1_ROS/custom_msgs/install:/home/maksim/KT1_ROS/ros2_pose/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maksim'), ('NAME', 'HOME-PC'), ('WSL_INTEROP', '/run/WSL/468_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/STMicroelectronics/stlink_server:/mnt/d/Electronics/STM32CubeCLT_1.18.0:/mnt/d/Electronics/STM32CubeCLT_1.18.0/CMake/bin:/mnt/d/Electronics/STM32CubeCLT_1.18.0/Ninja/bin:/mnt/d/Electronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin:/mnt/d/Electronics/STM32CubeCLT_1.18.0/STLink-gdb-server/bin:/mnt/d/Electronics/STM32CubeCLT_1.18.0/STM32CubeProgrammer/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/WireGuard/:/mnt/d/MathWorks/runtime/win64:/mnt/d/MathWorks/bin:/mnt/d/PuTTY/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/mingw64/bin:/mnt/d/Git/cmd:/mnt/c/Users/Maksim/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/Maksim/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/Maksim/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/Programming/Low-level/PyCharm 2024.2.3/bin:/mnt/c/Users/Maksim/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/maksim/KT1_ROS/ros2_pose/install/move_with_obstacle:/home/maksim/KT1_ROS/custom_msgs/install/custom_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maksim/KT1_ROS/build/custom_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maksim/KT1_ROS/ros2_pose/install/move_with_obstacle/lib/python3.10/site-packages:/home/maksim/KT1_ROS/custom_msgs/install/custom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/maksim/KT1_ROS/custom_msgs/install/custom_msgs:/home/maksim/KT1_ROS/ros2_pose/install/move_with_obstacle:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.099329] (-) TimerEvent: {}
+[0.140896] (custom_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199410] (-) TimerEvent: {}
+[0.299644] (-) TimerEvent: {}
+[0.383945] (custom_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.399713] (-) TimerEvent: {}
+[0.499889] (-) TimerEvent: {}
+[0.521588] (custom_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.595898] (custom_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.599945] (-) TimerEvent: {}
+[0.600189] (custom_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.604055] (custom_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.604706] (custom_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.607937] (custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.684997] (custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.689450] (custom_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.689626] (custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.689895] (custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.693581] (custom_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.700007] (-) TimerEvent: {}
+[0.789212] (custom_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.800074] (-) TimerEvent: {}
+[0.859420] (custom_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.900157] (-) TimerEvent: {}
+[0.913395] (custom_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.917127] (custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.923764] (custom_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.000241] (-) TimerEvent: {}
+[1.029513] (custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.100359] (-) TimerEvent: {}
+[1.171764] (custom_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.200704] (-) TimerEvent: {}
+[1.287934] (custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.300797] (-) TimerEvent: {}
+[1.401055] (-) TimerEvent: {}
+[1.432982] (custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.488902] (custom_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.491685] (custom_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.501125] (-) TimerEvent: {}
+[1.601315] (-) TimerEvent: {}
+[1.654449] (custom_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.654720] (custom_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.654795] (custom_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.654853] (custom_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.667472] (custom_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.701396] (-) TimerEvent: {}
+[1.727926] (custom_msgs) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.728226] (custom_msgs) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.728315] (custom_msgs) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.731432] (custom_msgs) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.736898] (custom_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.740607] (custom_msgs) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.760669] (custom_msgs) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.760765] (custom_msgs) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.764181] (custom_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.771244] (custom_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.794835] (custom_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.800849] (custom_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/maksim/KT1_ROS/build/custom_msgs\n'}
+[1.801454] (-) TimerEvent: {}
+[1.806058] (custom_msgs) CommandEnded: {'returncode': 0}
+[1.806488] (custom_msgs) JobProgress: {'identifier': 'custom_msgs', 'progress': 'build'}
+[1.807395] (custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maksim/KT1_ROS/build/custom_msgs', '--', '-j12', '-l12'], 'cwd': '/home/maksim/KT1_ROS/build/custom_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maksim'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maksim/KT1_ROS/custom_msgs/install/custom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/maksim'), ('OLDPWD', '/home/maksim/KT1_ROS/custom_msgs'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maksim/KT1_ROS/custom_msgs/install:/home/maksim/KT1_ROS/ros2_pose/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maksim'), ('NAME', 'HOME-PC'), ('WSL_INTEROP', '/run/WSL/468_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/STMicroelectronics/stlink_server:/mnt/d/Electronics/STM32CubeCLT_1.18.0:/mnt/d/Electronics/STM32CubeCLT_1.18.0/CMake/bin:/mnt/d/Electronics/STM32CubeCLT_1.18.0/Ninja/bin:/mnt/d/Electronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin:/mnt/d/Electronics/STM32CubeCLT_1.18.0/STLink-gdb-server/bin:/mnt/d/Electronics/STM32CubeCLT_1.18.0/STM32CubeProgrammer/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/WireGuard/:/mnt/d/MathWorks/runtime/win64:/mnt/d/MathWorks/bin:/mnt/d/PuTTY/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/mingw64/bin:/mnt/d/Git/cmd:/mnt/c/Users/Maksim/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/Maksim/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/Maksim/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/Programming/Low-level/PyCharm 2024.2.3/bin:/mnt/c/Users/Maksim/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/maksim/KT1_ROS/ros2_pose/install/move_with_obstacle:/home/maksim/KT1_ROS/custom_msgs/install/custom_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maksim/KT1_ROS/build/custom_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maksim/KT1_ROS/ros2_pose/install/move_with_obstacle/lib/python3.10/site-packages:/home/maksim/KT1_ROS/custom_msgs/install/custom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/maksim/KT1_ROS/custom_msgs/install/custom_msgs:/home/maksim/KT1_ROS/ros2_pose/install/move_with_obstacle:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[1.829599] (custom_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.834865] (custom_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.839750] (custom_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_custom_msgs\n'}
+[1.901528] (-) TimerEvent: {}
+[1.989539] (custom_msgs) StdoutLine: {'line': b'[  6%] Built target custom_msgs__cpp\n'}
+[1.995807] (custom_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.995960] (custom_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.996026] (custom_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.001603] (-) TimerEvent: {}
+[2.023108] (custom_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/pose2_d__functions.c.o\x1b[0m\n'}
+[2.023498] (custom_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.024086] (custom_msgs) StdoutLine: {'line': b'creating custom_msgs.egg-info\n'}
+[2.024470] (custom_msgs) StdoutLine: {'line': b'writing custom_msgs.egg-info/PKG-INFO\n'}
+[2.024606] (custom_msgs) StdoutLine: {'line': b'writing dependency_links to custom_msgs.egg-info/dependency_links.txt\n'}
+[2.024733] (custom_msgs) StdoutLine: {'line': b'writing top-level names to custom_msgs.egg-info/top_level.txt\n'}
+[2.024905] (custom_msgs) StdoutLine: {'line': b"writing manifest file 'custom_msgs.egg-info/SOURCES.txt'\n"}
+[2.027211] (custom_msgs) StdoutLine: {'line': b"reading manifest file 'custom_msgs.egg-info/SOURCES.txt'\n"}
+[2.027754] (custom_msgs) StdoutLine: {'line': b"writing manifest file 'custom_msgs.egg-info/SOURCES.txt'\n"}
+[2.048835] (custom_msgs) StdoutLine: {'line': b'[ 19%] Built target ament_cmake_python_build_custom_msgs_egg\n'}
+[2.073896] (custom_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libcustom_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.101671] (-) TimerEvent: {}
+[2.131910] (custom_msgs) StdoutLine: {'line': b'[ 22%] Built target custom_msgs__rosidl_generator_c\n'}
+[2.138531] (custom_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.138770] (custom_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.138857] (custom_msgs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.154656] (custom_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/pose2_d__type_support.cpp.o\x1b[0m\n'}
+[2.161518] (custom_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/pose2_d__type_support.cpp.o\x1b[0m\n'}
+[2.184008] (custom_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/pose2_d__type_support.cpp.o\x1b[0m\n'}
+[2.201737] (-) TimerEvent: {}
+[2.301999] (-) TimerEvent: {}
+[2.311083] (custom_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/pose2_d__type_support.cpp.o\x1b[0m\n'}
+[2.330738] (custom_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/pose2_d__type_support.c.o\x1b[0m\n'}
+[2.334446] (custom_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.337733] (custom_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/pose2_d__type_support_c.cpp.o\x1b[0m\n'}
+[2.354637] (custom_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libcustom_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.355315] (custom_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.398215] (custom_msgs) StdoutLine: {'line': b'[ 61%] Built target custom_msgs__rosidl_typesupport_introspection_c\n'}
+[2.398594] (custom_msgs) StdoutLine: {'line': b'[ 61%] Built target custom_msgs__rosidl_typesupport_c\n'}
+[2.402059] (-) TimerEvent: {}
+[2.403990] (custom_msgs) StdoutLine: {'line': b'[ 61%] Built target custom_msgs__rosidl_typesupport_cpp\n'}
+[2.468613] (custom_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.479805] (custom_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.502157] (-) TimerEvent: {}
+[2.523488] (custom_msgs) StdoutLine: {'line': b'[ 67%] Built target custom_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.560797] (custom_msgs) StdoutLine: {'line': b'[ 67%] Built target custom_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.562415] (custom_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.602248] (-) TimerEvent: {}
+[2.631711] (custom_msgs) StdoutLine: {'line': b'[ 70%] Built target custom_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.642855] (custom_msgs) StdoutLine: {'line': b'[ 70%] Built target custom_msgs\n'}
+[2.654062] (custom_msgs) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.702332] (-) TimerEvent: {}
+[2.802544] (-) TimerEvent: {}
+[2.828242] (custom_msgs) StdoutLine: {'line': b'[ 74%] Built target custom_msgs__py\n'}
+[2.839271] (custom_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_pose2_d_s.c.o\x1b[0m\n'}
+[2.902636] (-) TimerEvent: {}
+[2.926826] (custom_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msgs/libcustom_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[2.977155] (custom_msgs) StdoutLine: {'line': b'[ 80%] Built target custom_msgs__rosidl_generator_py\n'}
+[2.988717] (custom_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.988933] (custom_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.988984] (custom_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.002732] (-) TimerEvent: {}
+[3.040614] (custom_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.040751] (custom_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.042751] (custom_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.079861] (custom_msgs) StdoutLine: {'line': b'[100%] Built target custom_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[3.080085] (custom_msgs) StdoutLine: {'line': b'[100%] Built target custom_msgs__rosidl_typesupport_c__pyext\n'}
+[3.095087] (custom_msgs) StdoutLine: {'line': b'[100%] Built target custom_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.101801] (custom_msgs) CommandEnded: {'returncode': 0}
+[3.102352] (custom_msgs) JobProgress: {'identifier': 'custom_msgs', 'progress': 'install'}
+[3.102778] (-) TimerEvent: {}
+[3.107763] (custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maksim/KT1_ROS/build/custom_msgs'], 'cwd': '/home/maksim/KT1_ROS/build/custom_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maksim'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maksim/KT1_ROS/custom_msgs/install/custom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/maksim'), ('OLDPWD', '/home/maksim/KT1_ROS/custom_msgs'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maksim/KT1_ROS/custom_msgs/install:/home/maksim/KT1_ROS/ros2_pose/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maksim'), ('NAME', 'HOME-PC'), ('WSL_INTEROP', '/run/WSL/468_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/STMicroelectronics/stlink_server:/mnt/d/Electronics/STM32CubeCLT_1.18.0:/mnt/d/Electronics/STM32CubeCLT_1.18.0/CMake/bin:/mnt/d/Electronics/STM32CubeCLT_1.18.0/Ninja/bin:/mnt/d/Electronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin:/mnt/d/Electronics/STM32CubeCLT_1.18.0/STLink-gdb-server/bin:/mnt/d/Electronics/STM32CubeCLT_1.18.0/STM32CubeProgrammer/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/WireGuard/:/mnt/d/MathWorks/runtime/win64:/mnt/d/MathWorks/bin:/mnt/d/PuTTY/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/mingw64/bin:/mnt/d/Git/cmd:/mnt/c/Users/Maksim/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/Maksim/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/Maksim/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/Programming/Low-level/PyCharm 2024.2.3/bin:/mnt/c/Users/Maksim/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/maksim/KT1_ROS/ros2_pose/install/move_with_obstacle:/home/maksim/KT1_ROS/custom_msgs/install/custom_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maksim/KT1_ROS/build/custom_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maksim/KT1_ROS/ros2_pose/install/move_with_obstacle/lib/python3.10/site-packages:/home/maksim/KT1_ROS/custom_msgs/install/custom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/maksim/KT1_ROS/custom_msgs/install/custom_msgs:/home/maksim/KT1_ROS/ros2_pose/install/move_with_obstacle:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[3.111585] (custom_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.112416] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/ament_index/resource_index/rosidl_interfaces/custom_msgs\n'}
+[3.112661] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs\n'}
+[3.113203] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg\n'}
+[3.113427] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/pose2_d.h\n'}
+[3.113566] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail\n'}
+[3.113721] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pose2_d__functions.h\n'}
+[3.113819] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pose2_d__functions.c\n'}
+[3.113952] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pose2_d__struct.h\n'}
+[3.114094] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pose2_d__type_support.h\n'}
+[3.114168] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.114393] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/environment/library_path.sh\n'}
+[3.114491] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/environment/library_path.dsv\n'}
+[3.114718] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so\n'}
+[3.114929] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/maksim/KT1_ROS/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so" to ""\n'}
+[3.115039] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs\n'}
+[3.115112] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg\n'}
+[3.115183] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail\n'}
+[3.115267] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[3.115402] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.115453] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.115537] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/maksim/KT1_ROS/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.115664] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs\n'}
+[3.115745] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg\n'}
+[3.115819] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail\n'}
+[3.115862] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pose2_d__type_support.c\n'}
+[3.115924] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h\n'}
+[3.115967] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.116004] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so\n'}
+[3.116120] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/maksim/KT1_ROS/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.116219] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so\n'}
+[3.116347] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/maksim/KT1_ROS/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so" to ""\n'}
+[3.116464] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs\n'}
+[3.116513] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg\n'}
+[3.116560] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail\n'}
+[3.116644] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pose2_d__type_support.hpp\n'}
+[3.116774] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pose2_d__struct.hpp\n'}
+[3.116818] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pose2_d__traits.hpp\n'}
+[3.116899] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pose2_d__builder.hpp\n'}
+[3.117029] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.117139] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/pose2_d.hpp\n'}
+[3.117179] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs\n'}
+[3.117214] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg\n'}
+[3.117256] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail\n'}
+[3.117383] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/dds_fastrtps\n'}
+[3.117588] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.117678] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.117716] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.117850] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/maksim/KT1_ROS/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.117899] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs\n'}
+[3.117934] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg\n'}
+[3.118015] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail\n'}
+[3.118094] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pose2_d__type_support.cpp\n'}
+[3.118211] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.118279] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[3.118376] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/maksim/KT1_ROS/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.118420] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so\n'}
+[3.118520] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/maksim/KT1_ROS/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[3.118591] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/environment/pythonpath.sh\n'}
+[3.118661] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/environment/pythonpath.dsv\n'}
+[3.118765] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info\n'}
+[3.119366] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.119477] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.119573] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.119686] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.119802] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs\n'}
+[3.119884] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.119992] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.120095] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.120179] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg\n'}
+[3.120329] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_pose2_d.py\n'}
+[3.120431] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/__init__.py\n'}
+[3.120516] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_pose2_d_s.c\n'}
+[3.120599] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/libcustom_msgs__rosidl_generator_py.so\n'}
+[3.120701] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.120802] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/__init__.py\n'}
+[3.120926] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[3.121030] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.141708] (custom_msgs) StdoutLine: {'line': b"Listing '/home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs'...\n"}
+[3.141850] (custom_msgs) StdoutLine: {'line': b"Compiling '/home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/__init__.py'...\n"}
+[3.141921] (custom_msgs) StdoutLine: {'line': b"Listing '/home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg'...\n"}
+[3.141976] (custom_msgs) StdoutLine: {'line': b"Compiling '/home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/__init__.py'...\n"}
+[3.142030] (custom_msgs) StdoutLine: {'line': b"Compiling '/home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_pose2_d.py'...\n"}
+[3.144441] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.144805] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.144952] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.145252] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.145386] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.145600] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.145699] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_py.so\n'}
+[3.145870] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/maksim/KT1_ROS/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_py.so" to ""\n'}
+[3.146056] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/msg/Pose2D.idl\n'}
+[3.146160] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/msg/Pose2D.msg\n'}
+[3.146400] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/ament_index/resource_index/package_run_dependencies/custom_msgs\n'}
+[3.146656] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/ament_index/resource_index/parent_prefix_path/custom_msgs\n'}
+[3.146766] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.sh\n'}
+[3.146875] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.dsv\n'}
+[3.147003] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/environment/path.sh\n'}
+[3.147135] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/environment/path.dsv\n'}
+[3.147227] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/local_setup.bash\n'}
+[3.147415] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/local_setup.sh\n'}
+[3.147533] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/local_setup.zsh\n'}
+[3.147646] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/local_setup.dsv\n'}
+[3.147753] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/package.dsv\n'}
+[3.147948] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/ament_index/resource_index/packages/custom_msgs\n'}
+[3.148175] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport.cmake\n'}
+[3.148278] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.148394] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.148501] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.148613] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.148719] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.148831] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport.cmake\n'}
+[3.148939] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.149050] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cppExport.cmake\n'}
+[3.149160] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.149268] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.149379] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.149489] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.149602] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[3.149707] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.149819] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport.cmake\n'}
+[3.149927] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.150037] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[3.150141] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.150240] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.150341] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.150444] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.150548] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.150652] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.150762] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig.cmake\n'}
+[3.150860] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig-version.cmake\n'}
+[3.150994] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/maksim/KT1_ROS/install/custom_msgs/share/custom_msgs/package.xml\n'}
+[3.152491] (custom_msgs) CommandEnded: {'returncode': 0}
+[3.163640] (custom_msgs) JobEnded: {'identifier': 'custom_msgs', 'rc': 0}
+[3.164769] (move_with_obstacle) JobStarted: {'identifier': 'move_with_obstacle'}
+[3.202842] (-) TimerEvent: {}
+[3.303074] (-) TimerEvent: {}
+[3.403255] (-) TimerEvent: {}
+[3.503450] (-) TimerEvent: {}
+[3.603642] (-) TimerEvent: {}
+[3.703866] (-) TimerEvent: {}
+[3.710350] (move_with_obstacle) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/move_with_obstacle', 'build', '--build-base', '/home/maksim/KT1_ROS/build/move_with_obstacle/build', 'install', '--record', '/home/maksim/KT1_ROS/build/move_with_obstacle/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/maksim/KT1_ROS/ros2_pose/move_with_obstacle', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'maksim', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/maksim/KT1_ROS/install/custom_msgs/lib:/home/maksim/KT1_ROS/custom_msgs/install/custom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/maksim', 'OLDPWD': '/home/maksim/KT1_ROS/custom_msgs', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/maksim/KT1_ROS/custom_msgs/install:/home/maksim/KT1_ROS/ros2_pose/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'maksim', 'NAME': 'HOME-PC', 'WSL_INTEROP': '/run/WSL/468_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/STMicroelectronics/stlink_server:/mnt/d/Electronics/STM32CubeCLT_1.18.0:/mnt/d/Electronics/STM32CubeCLT_1.18.0/CMake/bin:/mnt/d/Electronics/STM32CubeCLT_1.18.0/Ninja/bin:/mnt/d/Electronics/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin:/mnt/d/Electronics/STM32CubeCLT_1.18.0/STLink-gdb-server/bin:/mnt/d/Electronics/STM32CubeCLT_1.18.0/STM32CubeProgrammer/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/WireGuard/:/mnt/d/MathWorks/runtime/win64:/mnt/d/MathWorks/bin:/mnt/d/PuTTY/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/mingw64/bin:/mnt/d/Git/cmd:/mnt/c/Users/Maksim/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/Maksim/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/Maksim/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/Programming/Low-level/PyCharm 2024.2.3/bin:/mnt/c/Users/Maksim/AppData/Local/GitHubDesktop/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/maksim/KT1_ROS/install/custom_msgs:/home/maksim/KT1_ROS/ros2_pose/install/move_with_obstacle:/home/maksim/KT1_ROS/custom_msgs/install/custom_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/maksim/KT1_ROS/build/move_with_obstacle', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/maksim/KT1_ROS/build/move_with_obstacle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maksim/KT1_ROS/install/move_with_obstacle/lib/python3.10/site-packages:/home/maksim/KT1_ROS/install/custom_msgs/local/lib/python3.10/dist-packages:/home/maksim/KT1_ROS/ros2_pose/install/move_with_obstacle/lib/python3.10/site-packages:/home/maksim/KT1_ROS/custom_msgs/install/custom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/maksim/KT1_ROS/install/custom_msgs:/home/maksim/KT1_ROS/custom_msgs/install/custom_msgs', 'WSLENV': ''}, 'shell': False}
+[3.803931] (-) TimerEvent: {}
+[3.845390] (move_with_obstacle) StdoutLine: {'line': b'running egg_info\n'}
+[3.845578] (move_with_obstacle) StdoutLine: {'line': b'creating ../../build/move_with_obstacle/move_with_obstacle.egg-info\n'}
+[3.845765] (move_with_obstacle) StdoutLine: {'line': b'writing ../../build/move_with_obstacle/move_with_obstacle.egg-info/PKG-INFO\n'}
+[3.845989] (move_with_obstacle) StdoutLine: {'line': b'writing dependency_links to ../../build/move_with_obstacle/move_with_obstacle.egg-info/dependency_links.txt\n'}
+[3.846038] (move_with_obstacle) StdoutLine: {'line': b'writing entry points to ../../build/move_with_obstacle/move_with_obstacle.egg-info/entry_points.txt\n'}
+[3.846109] (move_with_obstacle) StdoutLine: {'line': b'writing requirements to ../../build/move_with_obstacle/move_with_obstacle.egg-info/requires.txt\n'}
+[3.846181] (move_with_obstacle) StdoutLine: {'line': b'writing top-level names to ../../build/move_with_obstacle/move_with_obstacle.egg-info/top_level.txt\n'}
+[3.846280] (move_with_obstacle) StdoutLine: {'line': b"writing manifest file '../../build/move_with_obstacle/move_with_obstacle.egg-info/SOURCES.txt'\n"}
+[3.846880] (move_with_obstacle) StdoutLine: {'line': b"reading manifest file '../../build/move_with_obstacle/move_with_obstacle.egg-info/SOURCES.txt'\n"}
+[3.847320] (move_with_obstacle) StdoutLine: {'line': b"writing manifest file '../../build/move_with_obstacle/move_with_obstacle.egg-info/SOURCES.txt'\n"}
+[3.847499] (move_with_obstacle) StdoutLine: {'line': b'running build\n'}
+[3.847601] (move_with_obstacle) StdoutLine: {'line': b'running build_py\n'}
+[3.847742] (move_with_obstacle) StdoutLine: {'line': b'creating /home/maksim/KT1_ROS/build/move_with_obstacle/build\n'}
+[3.847802] (move_with_obstacle) StdoutLine: {'line': b'creating /home/maksim/KT1_ROS/build/move_with_obstacle/build/lib\n'}
+[3.847915] (move_with_obstacle) StdoutLine: {'line': b'creating /home/maksim/KT1_ROS/build/move_with_obstacle/build/lib/move_with_obstacle\n'}
+[3.848004] (move_with_obstacle) StdoutLine: {'line': b'copying move_with_obstacle/obstacles_deepseek.py -> /home/maksim/KT1_ROS/build/move_with_obstacle/build/lib/move_with_obstacle\n'}
+[3.848096] (move_with_obstacle) StdoutLine: {'line': b'copying move_with_obstacle/obstacles.py -> /home/maksim/KT1_ROS/build/move_with_obstacle/build/lib/move_with_obstacle\n'}
+[3.848584] (move_with_obstacle) StdoutLine: {'line': b'copying move_with_obstacle/__init__.py -> /home/maksim/KT1_ROS/build/move_with_obstacle/build/lib/move_with_obstacle\n'}
+[3.848668] (move_with_obstacle) StdoutLine: {'line': b'copying move_with_obstacle/test_zaicev.py -> /home/maksim/KT1_ROS/build/move_with_obstacle/build/lib/move_with_obstacle\n'}
+[3.849049] (move_with_obstacle) StdoutLine: {'line': b'running install\n'}
+[3.849236] (move_with_obstacle) StdoutLine: {'line': b'running install_lib\n'}
+[3.849592] (move_with_obstacle) StdoutLine: {'line': b'creating /home/maksim/KT1_ROS/install/move_with_obstacle/lib/python3.10/site-packages/move_with_obstacle\n'}
+[3.849746] (move_with_obstacle) StdoutLine: {'line': b'copying /home/maksim/KT1_ROS/build/move_with_obstacle/build/lib/move_with_obstacle/obstacles_deepseek.py -> /home/maksim/KT1_ROS/install/move_with_obstacle/lib/python3.10/site-packages/move_with_obstacle\n'}
+[3.849841] (move_with_obstacle) StdoutLine: {'line': b'copying /home/maksim/KT1_ROS/build/move_with_obstacle/build/lib/move_with_obstacle/obstacles.py -> /home/maksim/KT1_ROS/install/move_with_obstacle/lib/python3.10/site-packages/move_with_obstacle\n'}
+[3.849933] (move_with_obstacle) StdoutLine: {'line': b'copying /home/maksim/KT1_ROS/build/move_with_obstacle/build/lib/move_with_obstacle/__init__.py -> /home/maksim/KT1_ROS/install/move_with_obstacle/lib/python3.10/site-packages/move_with_obstacle\n'}
+[3.850050] (move_with_obstacle) StdoutLine: {'line': b'copying /home/maksim/KT1_ROS/build/move_with_obstacle/build/lib/move_with_obstacle/test_zaicev.py -> /home/maksim/KT1_ROS/install/move_with_obstacle/lib/python3.10/site-packages/move_with_obstacle\n'}
+[3.850291] (move_with_obstacle) StdoutLine: {'line': b'byte-compiling /home/maksim/KT1_ROS/install/move_with_obstacle/lib/python3.10/site-packages/move_with_obstacle/obstacles_deepseek.py to obstacles_deepseek.cpython-310.pyc\n'}
+[3.851136] (move_with_obstacle) StdoutLine: {'line': b'byte-compiling /home/maksim/KT1_ROS/install/move_with_obstacle/lib/python3.10/site-packages/move_with_obstacle/obstacles.py to obstacles.cpython-310.pyc\n'}
+[3.851608] (move_with_obstacle) StdoutLine: {'line': b'byte-compiling /home/maksim/KT1_ROS/install/move_with_obstacle/lib/python3.10/site-packages/move_with_obstacle/__init__.py to __init__.cpython-310.pyc\n'}
+[3.851766] (move_with_obstacle) StdoutLine: {'line': b'byte-compiling /home/maksim/KT1_ROS/install/move_with_obstacle/lib/python3.10/site-packages/move_with_obstacle/test_zaicev.py to test_zaicev.cpython-310.pyc\n'}
+[3.852029] (move_with_obstacle) StdoutLine: {'line': b'running install_data\n'}
+[3.852207] (move_with_obstacle) StdoutLine: {'line': b'creating /home/maksim/KT1_ROS/install/move_with_obstacle/share/ament_index\n'}
+[3.852271] (move_with_obstacle) StdoutLine: {'line': b'creating /home/maksim/KT1_ROS/install/move_with_obstacle/share/ament_index/resource_index\n'}
+[3.852361] (move_with_obstacle) StdoutLine: {'line': b'creating /home/maksim/KT1_ROS/install/move_with_obstacle/share/ament_index/resource_index/packages\n'}
+[3.852498] (move_with_obstacle) StdoutLine: {'line': b'copying resource/move_with_obstacle -> /home/maksim/KT1_ROS/install/move_with_obstacle/share/ament_index/resource_index/packages\n'}
+[3.852603] (move_with_obstacle) StdoutLine: {'line': b'copying package.xml -> /home/maksim/KT1_ROS/install/move_with_obstacle/share/move_with_obstacle\n'}
+[3.852691] (move_with_obstacle) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.853521] (move_with_obstacle) StdoutLine: {'line': b'Copying ../../build/move_with_obstacle/move_with_obstacle.egg-info to /home/maksim/KT1_ROS/install/move_with_obstacle/lib/python3.10/site-packages/move_with_obstacle-0.0.0-py3.10.egg-info\n'}
+[3.854207] (move_with_obstacle) StdoutLine: {'line': b'running install_scripts\n'}
+[3.866208] (move_with_obstacle) StdoutLine: {'line': b'Installing obstacles script to /home/maksim/KT1_ROS/install/move_with_obstacle/lib/move_with_obstacle\n'}
+[3.866498] (move_with_obstacle) StdoutLine: {'line': b'Installing obstacles_deepseek script to /home/maksim/KT1_ROS/install/move_with_obstacle/lib/move_with_obstacle\n'}
+[3.866591] (move_with_obstacle) StdoutLine: {'line': b'Installing test_zaicev script to /home/maksim/KT1_ROS/install/move_with_obstacle/lib/move_with_obstacle\n'}
+[3.866761] (move_with_obstacle) StdoutLine: {'line': b"writing list of installed files to '/home/maksim/KT1_ROS/build/move_with_obstacle/install.log'\n"}
+[3.881509] (move_with_obstacle) CommandEnded: {'returncode': 0}
+[3.885123] (move_with_obstacle) JobEnded: {'identifier': 'move_with_obstacle', 'rc': 0}
+[3.885976] (-) EventReactorShutdown: {}

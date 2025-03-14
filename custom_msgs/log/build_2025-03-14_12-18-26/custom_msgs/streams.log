@@ -1,0 +1,14 @@
+[0.011s] Invoking command in '/home/maksim/KT1_ROS/custom_msgs/build/custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maksim/KT1_ROS/ros2_pose/install/move_with_obstacle:/opt/ros/humble /usr/bin/cmake --build /home/maksim/KT1_ROS/custom_msgs/build/custom_msgs -- -j12 -l12
+[0.030s] [0mCMake Error: The current CMakeCache.txt directory /home/maksim/KT1_ROS/custom_msgs/build/custom_msgs/CMakeCache.txt is different than the directory /home/maksim/custom_msgs/build/custom_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.066s] /bin/sh: 1: cd: can't cd to /home/maksim/custom_msgs/build/custom_msgs
+[0.066s] gmake[2]: *** [CMakeFiles/custom_msgs__cpp.dir/build.make:125: CMakeFiles/custom_msgs__cpp.dir/depend] Error 2
+[0.067s] gmake[1]: *** [CMakeFiles/Makefile2:316: CMakeFiles/custom_msgs__cpp.dir/all] Error 2
+[0.067s] gmake[1]: *** Waiting for unfinished jobs....
+[0.067s] /bin/sh: 1: cd: can't cd to /home/maksim/custom_msgs/build/custom_msgs
+[0.067s] gmake[2]: *** [CMakeFiles/ament_cmake_python_copy_custom_msgs.dir/build.make:85: CMakeFiles/ament_cmake_python_copy_custom_msgs.dir/depend] Error 2
+[0.067s] gmake[1]: *** [CMakeFiles/Makefile2:420: CMakeFiles/ament_cmake_python_copy_custom_msgs.dir/all] Error 2
+[0.067s] /bin/sh: 1: cd: can't cd to /home/maksim/custom_msgs/build/custom_msgs
+[0.067s] gmake[2]: *** [CMakeFiles/custom_msgs__rosidl_generator_c.dir/build.make:143: CMakeFiles/custom_msgs__rosidl_generator_c.dir/depend] Error 2
+[0.067s] gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/custom_msgs__rosidl_generator_c.dir/all] Error 2
+[0.067s] gmake: *** [Makefile:146: all] Error 2
+[0.069s] Invoked command in '/home/maksim/KT1_ROS/custom_msgs/build/custom_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maksim/KT1_ROS/ros2_pose/install/move_with_obstacle:/opt/ros/humble /usr/bin/cmake --build /home/maksim/KT1_ROS/custom_msgs/build/custom_msgs -- -j12 -l12

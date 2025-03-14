@@ -22,7 +22,8 @@ setup(
         'console_scripts': [
         'test_zaicev = move_with_obstacle.test_zaicev:main',
         'obstacles = move_with_obstacle.obstacles:main',
-        'obstacles_deepseek = move_with_obstacle.obstacles_deepseek:main'
+        'obstacles_deepseek = move_with_obstacle.obstacles_deepseek:main',
+        'obstacles_final = move_with_obstacle.obstacles_final:main'
         ],
     },
 )

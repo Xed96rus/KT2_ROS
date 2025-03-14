@@ -1,0 +1,4 @@
+Invoking command in '/home/maksim/KT1_ROS/build/custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maksim/KT1_ROS/build/custom_msgs -- -j12 -l12
+Invoked command in '/home/maksim/KT1_ROS/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maksim/KT1_ROS/build/custom_msgs -- -j12 -l12
+Invoking command in '/home/maksim/KT1_ROS/build/custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/maksim/KT1_ROS/build/custom_msgs
+Invoked command in '/home/maksim/KT1_ROS/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/maksim/KT1_ROS/build/custom_msgs
