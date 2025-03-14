@@ -1,5 +1,0 @@
-  File "/home/maksim/ros2_pose/install/move_with_obstacle/lib/python3.10/site-packages/move_with_obstacle/obstacles_deepseek.py", line 29
-    3        self.make_targets()  # Инициализация целей
-             ^^^^
-SyntaxError: invalid syntax
-

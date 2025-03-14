@@ -1,6 +1,0 @@
-{
-  "package_name": "custom_msgs",
-  "non_idl_tuples": [
-    "/home/maksim/custom_msgs:msg/Pose2D.msg"
-  ]
-}

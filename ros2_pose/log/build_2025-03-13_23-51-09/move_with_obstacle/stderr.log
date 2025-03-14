@@ -1,5 +1,0 @@
-  File "/home/maksim/ros2_pose/install/move_with_obstacle/lib/python3.10/site-packages/move_with_obstacle/obstacles.py", line 30
-    for i in range(len(self.coord_obs[0]):
-                                         ^
-SyntaxError: invalid syntax
-

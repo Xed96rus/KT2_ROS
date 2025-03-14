@@ -1,2 +1,0 @@
-Invoking command in '/home/maksim/KT1_ROS/custom_msgs/build/custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maksim/KT1_ROS/ros2_pose/install/move_with_obstacle:/opt/ros/humble /usr/bin/cmake --build /home/maksim/KT1_ROS/custom_msgs/build/custom_msgs -- -j12 -l12
-Invoked command in '/home/maksim/KT1_ROS/custom_msgs/build/custom_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maksim/KT1_ROS/ros2_pose/install/move_with_obstacle:/opt/ros/humble /usr/bin/cmake --build /home/maksim/KT1_ROS/custom_msgs/build/custom_msgs -- -j12 -l12
